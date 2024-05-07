@@ -1,0 +1,22 @@
+Choose a machine learning application and database you want,
+then you may do the following tasks:
+
+Level 1: Use Spark scripts for data processing, cleanup,
+transformation etc. Use both Dataframes and Spark SQL. You can
+put your data in whatever format you want.
+
+Level 2: Use Spark ML to classify/regress output depending on
+your problem. Benchmark the results obtained with Spark ML
+versus the results obtained with standard ML implementations
+(Python or R) in both terms of accuracy and computational
+performance (i.e. computing time, resources used - memory, CPU
+load, system). Use at least two algorithms in both the standard
+implementation and Spark ML.
+
+Level 3: Create a streaming process with whatever source you
+want using Spark Streaming. Apply the ML models trained at
+Level 2 to do live inference. Or make online training over a
+model.
+
+Example of a Level 3 project: Processing real time data that
+come from different sources in a distributed system.
